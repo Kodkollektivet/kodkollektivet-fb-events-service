@@ -1,0 +1,22 @@
+#+TITLE: Kodkollektivet Facebook events microservice
+#+AUTHOR: Kodkollektivet
+
+
+* About
+
+  In the end this will be a microservice that will be able to work with our Facebook events
+  in a JSON format.
+
+* Tokens
+
+  App id and app secret needs to be set to get it to work. Ask jherrlin in Slack to get
+  this.
+
+  #+BEGIN_SRC scheme
+    (define %app-id "")
+    (define %app-secret "")
+  #+END_SRC
+
+* Roadmap
+
+  See the project board.
